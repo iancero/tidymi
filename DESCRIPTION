@@ -10,8 +10,11 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.1.2
 Imports: 
     magrittr
+VignetteBuilder: knitr
