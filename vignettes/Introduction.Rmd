@@ -1,0 +1,23 @@
+---
+title: "Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+# library(tidymi)
+```
+
+Missing data is ubiquitous and distoring to a statistical analysis. Not only can an analyst expect at least *some* values from a final dataset to be missing, but also that those data will be *systematically* missing. This reduces the statistical power of an analysis, and also frequently leads to biased results.
+
+
