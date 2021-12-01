@@ -1,3 +1,5 @@
+
+
 pool_point_est <- function(point_ests){
   assertthat::assert_that(length(point_ests) > 1)
   assertthat::noNA(point_ests)
